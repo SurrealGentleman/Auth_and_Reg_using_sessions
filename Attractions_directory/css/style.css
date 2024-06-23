@@ -1,0 +1,65 @@
+header{
+	display: flex;
+    width: 100%;
+    justify-content: end;
+    border-bottom: 2px solid gray;
+}
+
+header form{
+	display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+header form input{
+	margin-bottom: 10px;
+}
+
+header form p{
+	margin: 0 0 10px 0;
+}
+
+p.msg{
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+header form.exit{
+	display: flex;
+    justify-content: end;
+    width: 10%;
+}
+
+main{
+	margin-top: 10px;
+}
+
+main form{
+	display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+main form input{
+	margin-bottom: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+main div p{
+	text-align: justify;
+}
+
+div.image{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+main div img {
+	width: 500px;
+}
