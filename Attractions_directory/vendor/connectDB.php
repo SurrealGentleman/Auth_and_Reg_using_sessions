@@ -1,5 +1,5 @@
 <?
-	$connect = mysqli_connect('localhost', 'root', 'root', 'lab1_function');
+	$connect = mysqli_connect('сервер', 'логин', 'пароль', 'названиеБД');
 	if (!$connect) {
 		die('Error connect to DataBase');
 	}
